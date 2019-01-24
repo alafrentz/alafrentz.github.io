@@ -1,0 +1,13 @@
+.navbar{
+    font-family: serif;
+    text-align: center;
+    float: right;
+   
+    
+
+}
+.jumbotron {
+    background-image: url("../Assets/Abstract-HD-Wallpapers-By-hdviewer-19.jpg");
+    background-size:100%;
+    color: red;
+   }

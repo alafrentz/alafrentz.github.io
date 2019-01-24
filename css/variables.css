@@ -1,0 +1,10 @@
+:root {
+    --blue: #2200FA;
+    --green: #50F600;
+    --red: #D6090E;
+    --black: rgba(0, 0, 0, 0);
+    --teal: rgb(0, 255, 255);
+    
+    --fancyFont:'Rock Salt' cursive;
+    --font2: 'Kaushan Script';
+}

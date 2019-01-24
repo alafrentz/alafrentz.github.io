@@ -1,0 +1,12 @@
+body{
+    height: 100%;
+    background: url('../Assets/Abstract-HD-Wallpapers-By-hdviewer-19.jpg');
+    background: cover;
+    text-align: center;
+    color: red;
+    font-family: cursive    ; 
+}
+
+h3{
+    text-align: center;
+}
