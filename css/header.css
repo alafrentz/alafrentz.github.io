@@ -1,0 +1,55 @@
+.parallax1 {
+    background-image: url("../assets/images/home.jpg");
+    height: 95vh;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxh1 {
+    color: var(--tan);
+    text-align: center;
+    /* font-family: var(--myFont); */
+    /* font-family: 'Oleo Script', cursive; */
+    padding-top: 10%;
+    font-size: 450%;
+    text-shadow: 2px 2px 2px var(--darkgreen);
+}
+.headerh2 {
+    /* font-family: var(--myFont); */
+    color: var(--tan);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-shadow: 2px 2px 2px var(--darkgreen);
+}
+
+
+
+
+@media screen and (max-width: 1030px) {
+    .parallax1 {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+        
+    }
+    .parallax2 .pp {
+        position: relative;
+        top: 40px;
+        left:20px;
+        width: 300px;
+        font-size: 1em;
+    }
+    .pull-right {
+        float: right !important;
+        position: relative !important;
+        left: 60vw;
+    }
+  }

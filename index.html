@@ -1,212 +1,181 @@
-<!--REQUIREMENTS:::resmue, links to projects, contact form.-->
-
-
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aaron Lafrentz</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/Screen Shot 2019-03-29 at 11.56.04 AM.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
 
-<head id=header>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aaron Lafrentz</title>
-  <link rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/main.css">
-  <!--added link here-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="css.1/main.css" type="text/css">
 </head>
+<body class="body">
 
-<body>
+    
+    
+        <nav id="navBar"class="navbar navbar-fixed-top navbar-expand-md navbar-dark bg-primary">
+                <div class="d-flex w-50 order-0">
+                    <!-- <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button> -->
+                    <button value="toggle" for="navbar collapse" class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                        <span id="toggles" class="navbar-toggler-icon"><p>Toggle</p></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myProjects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="./assets/JavaScript Resume.pdf" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navbar-text small text-truncate mt-1 w-50 text-left order-1 order-md-last"></span>
+            </nav>
 
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Welcome</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        </li>
-      </ul>
+    <div class="parallax1">
+        <div id="home"></div>
+            <h1 class="parallaxh1">Aaron Lafrentz</h1>
+            <h3 class="headerh2">JavaScript Developer</h3>
     </div>
-  </nav>
-  <div class="jumbotron">
-    <h1 class="display-2">Aaron Lafrentz</h1>
 
 
+    <!-- <div class="parallax2">
+        <h1 class="parallaxh2">"QUOTE"</h1>
+    </div> -->
 
 
-
-  </div>
-
-
-  <!-- <div class="jumbotron"> -->
-
-  <section id="about"></section>
-  <h1 class="text-center text-uppercase ">About me</h1>
-  <br>
-  <br>
-  <br>
-  <p>
-    <h3>My story starts in transportation, where i was co-owner of Endeavor Limousine and later on bought Indy Limo.
-      After 4 years in limo business I decided to sell the business and got into healthcare transportation at Magnolia
-      Health Systems. During that time I also did transportation for Ed Carpenter Racing transporting Ed Carpenter's
-      IndyCar. I decided to join Eleven Fifty Academy for a career change. So far i have learned HTML, CSS, JavaScript,
-      bootstrap and looking forward learning a lot more. </h3>
-  </p>
-
-  <hr class="my-4">
-
-  <!-- </div> -->
-
-  <!--About section-->
-
-
-
-  <br>
-
-
-
-  <br>
-
-
-  <br>
-
-
-
-  <!--portfolio Section-->
-  <sections id="projects"></sections>
-  <h1 class="text-center text-uppercase">Projects</h1>
-
-  <div class="portfolio-wrapper">
-    <div class="imageContainer">
-      <a href="file:///C:/Users/Leslie%20McManaman/Desktop/JavaScriptJan2019/javascriptLibary/2-JavaScript-Projects/storefront/index.html "
-        target="_blank">
-        <img class="image" src="../Portfolio/Assets/portfolio-web.jpg" />
-        <div class="overlay">
-          <div class="text">Store Front</div>
+    <div id="aboutMe">
+        <div class="jumbotron1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        
+                        <h1 class="h1">About Me...</h1>
+                        <p>My story starts in transportation, where i was co-owner of Endeavor Limousine and later on bought Indy Limo.
+                            After 4 years in limo business I decided to sell the business and got into healthcare transportation at Magnolia
+                            Health Systems. During that time I also did transportation for Ed Carpenter Racing transporting Ed Carpenter's
+                            IndyCar. I decided to join Eleven Fifty Academy for a career change. So far i have learned HTML, CSS,
+                            JavaScript,
+                            bootstrap and looking forward learning a lot more.
+                        </p>
+                        <hr>
+                    
+                    </div>
+                    
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="text-center">
+                            <figure>
+                                <img class="me" src="assets/images/aaron.jpg" alt="picture of me">
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            
         </div>
-      </a>
+
+
+    <div>
+        <div class="jumbotron2">
+            <div id="myProjects"></div>
+            <h1 class="h1">Projects</h1>
+
+        
+            <div class="card-group">
+                <div class="card border-light">
+                    <a href="file:///C:/Users/Leslie%20McManaman/Desktop/JavaScriptJan2019/javascriptLibary/2-JavaScript-Projects/storefront/index.html" target="_blank"><img class="card-img-top" src="./assets/images/javascript.png" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <a href="https:/file:///C:/Users/Leslie%20McManaman/Desktop/JavaScriptJan2019/javascriptLibary/2-JavaScript-Projects/storefront/index.html/board-meeting-client.herokuapp.com/home" target="_blank"><h5 class="card-title">JS Tutorial Webpage</h5></a>
+                   
+                        <!-- <a class="btn btn-secondary" href="https://github.com/ndeisler/challenges" target="_blank" role="button">Gold Badge Challenges</a> -->
+                    </div>
+                </div>
+                <div class="card border-light">    
+                    <a href="https://codepen.io/alafrentz/full/ebKWor//" target="_blank"><img class="card-img-top" src="./assets/images/minion.PNG" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <a href="https://codepen.io/alafrentz/full/ebKWor//" target="_blank"><h5 class="card-title">CSS creature</h5></a>
+                      
+                    </div>
+                </div>
+                <div class="card border-light">
+                    <a href="https://dogbreedproject.herokuapp.com/home" target="_blank"><img class="card-img-top" src="./assets/images/dl_black.png" alt="Card image cap"></a>
+                    <div class="card-body">
+                        <a href="https://dogbreedproject.herokuapp.com/home" target="_blank"><h5 class="card-title">Dog Paws Website</h5></a>
+                    </div>
+                </div>
+        
+                </div>
+            </div>
     </div>
-    <div class="imageContainer">
-      <a href="https://codepen.io/alafrentz/full/ebKWor//" target="_blank">
-        <img class="image" src="./assets/minion.PNG" />
-        <div class="overlay">
-          <div class="text">CSS</div>
-        </div>
-      </a>
-    </div>
-    <div class="imageContainer">
-      <a href="file:///C:/Users/Leslie%20McManaman/Desktop/JavaScriptJan2019/javascriptLibary/1-jsFundamentals/Api-Challenge/api.main.html "
-        target="_blank">
-        <img class="image" src="./assets/api-main-page.PNG" />
-        <div class="overlay">
-          <div class="text">API WebPage</div>
-        </div>
-      </a>
-    </div>
-  </div>
 
 
-  <br>
-
-
-  <br>
-
-
-  <br>
-
-
-  <br>
-
-
-  <br>
-
-
-  <br>
-
-  <!--contact section-->
-  <sections id="contact">
-
-
-    <br>
-
-
-    <br>
-
-
-    <br>
-
-    <div class="container">
-      <h1 class="text-center text-uppercase">Contact Me</h1>
-      <div class="row">
-        <form action="https://formspree.io/Arlafrentz@gmail.com" method="POST" style="width: 50%; margin: auto;">
-          <div class="control-group">
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                data-validation-required-message="Please enter your name" name="name">
-              <p class="help-block text-danger"></p>
+    <!--CONTACT INFO-->
+    <secton id="contact">
+        <div class="container-fluid">
+            
+        <div class="container">
+            <h1 class="text-center text-uppercase">Contact Me</h1>
+            <div class="row">
+              <form action="https://formspree.io/Arlafrentz@gmail.com" method="POST" style="width: 50%; margin: auto;">
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                      data-validation-required-message="Please enter your name" name="name">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                      data-validation-required-message="Please enter your email" name="_replyto">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                      data-validation-required-message="Please leave a message" name="message"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
+                  <footer>
+                    <a href="assets/Aaron-Lafrentz (2).pdf" id="resume" class="infoSec" download="">Download My Resume</a>
+                    <p>Designed By: Aaron Lafrentz</p>
+                    <p>Contact information: <a href="mailto:arlafrentz@hotmail.com">
+                        arlafrentz@gmail.com</a>.</p>
+                  </footer>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="control-group">
-            <div class="form-group">
-              <label>Email Address</label>
-              <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                data-validation-required-message="Please enter your email" name="_replyto">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group">
-              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                data-validation-required-message="Please leave a message" name="message"></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="text-center">
-            <div id="success"></div>
-            <button type="submit" class="btn btn-lg btn-black">
-              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-              Send Message
-            </button>
-            <footer>
-              <a href="assets/Aaron-Lafrentz (2).pdf" id="resume" class="infoSec" download="">Download My Resume</a>
-              <p>Designed By: Aaron Lafrentz</p>
-              <p>Contact information: <a href="mailto:arlafrentz@hotmail.com">
-                  arlafrentz@gmail.com</a>.</p>
-            </footer>
-          </div>
-        </form>
-      </div>
-    </div>
 
+    </secton>
 
-
-
-
-
-
-    <!--Java Script Tags-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
-
 </html>
